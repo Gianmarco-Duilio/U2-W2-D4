@@ -1,0 +1,29 @@
+@import "./bootstrap-over-rides";
+.hero-section {
+  background-color: $purple-400;
+  color: $white;
+}
+@mixin bottoni {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+  padding-inline: 40px;
+  margin-top: 20px;
+}
+.avatar-1 {
+  width: 50px;
+  margin: 20px;
+}
+
+.Welcome {
+  padding: 5%;
+}
+.btn1 {
+  @include bottoni();
+  background-color: $green-300;
+  color: $white;
+}
+.btn2 {
+  @include bottoni();
+  background-color: $white;
+}
